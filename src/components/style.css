@@ -1,0 +1,152 @@
+
+/* Voici les couleurs dominantes extraites du logo :
+
+Bleu : (69, 55, 255)
+
+Orange : (255, 110, 38)
+
+Rose / Rouge clair : (255, 89, 100)
+
+Blanc : (255, 255, 255) */
+
+*{
+    text-decoration: none;
+
+}
+.BoxArticles , .Activite {
+    width: 100%;
+    margin: 30px auto;
+    display: flex;
+place-content: center;
+}
+
+.nav_pro{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin: 0 auto;
+    background-color: rgb(69, 55, 255);
+    align-items: center;
+    height: 75px;
+}
+
+.LogoMag{
+width: 140px;
+height: 44px;
+padding: 10px 50px 0;
+}
+
+.List_NavBar{
+display: flex;
+justify-content: space-between;
+align-items: center;
+flex-direction: row;
+gap: 20px;
+list-style: none;
+}
+
+.NavBar_List{
+color: rgb(245, 243, 243);
+}
+
+.search-form{
+    width: 120px;
+}
+.chercher_input{
+    width: 70px;
+}
+
+.Footer_Pro{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+margin: 0 auto;
+list-style: none;
+background-color: rgb(69, 55, 255);
+color: rgb(255, 89, 100);
+font-size: 24px;
+padding: 25px 0px;
+}
+
+.list_Footer{
+margin: 0 25px;
+gap: 10px;
+list-style: none;
+
+text-align: center;
+font-weight: 700;
+}
+.imgTest{
+width: 200px;
+height: 250px;
+border-radius: 10%;
+}
+.spanTag{
+    color: rgb(255, 255, 255);
+    margin: 10px  0;
+}
+.tagatFooter{
+    color:rgb(255, 255, 255) ;
+    font-size: 14px;
+} 
+
+
+
+
+.join-team-form-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  .form-status {
+    text-align: center;
+    margin-top: 10px;
+    font-weight: bold;
+    color: #4CAF50;
+  }
+  
